@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="3670274408">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_VOX</ObjectPath>
+			<ShortName>SB_VOX</ShortName>
+			<Path>SB_VOX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3306837711" Name="Play_VOX_PANT_React" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\REACT\Play_VOX_PANT_React" GUID="{E4B635C9-926C-471F-B786-9B13FAAA20B8}" DurationType="OneShot" DurationMin="1.374046" DurationMax="1.980396">
+					<IncludedMemoryFiles>
+						<File Id="124562742" Language="SFX">
+							<ShortName>VOX\PANTIN\REACT\PANTIN_REAC-001.wav</ShortName>
+							<Path>SFX\VOX\PANTIN\REACT\PANTIN_REAC-001_FCB3882C.wem</Path>
+						</File>
+						<File Id="296882556" Language="SFX">
+							<ShortName>VOX\PANTIN\REACT\PANTIN_REAC-002.wav</ShortName>
+							<Path>SFX\VOX\PANTIN\REACT\PANTIN_REAC-002_0ECAD437.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

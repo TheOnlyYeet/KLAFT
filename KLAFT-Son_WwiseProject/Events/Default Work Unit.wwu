@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{19A8AEFE-9162-4A82-9327-3CFD517AC956}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{19A8AEFE-9162-4A82-9327-3CFD517AC956}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Music" ID="{132B55A4-3412-4FB1-9156-2FE7AF086CB8}" PersistMode="Reference"/>
+				<WorkUnit Name="AMB" ID="{41C5C5A4-3F9A-4015-BD50-10DCFF603574}" PersistMode="Reference"/>
+				<WorkUnit Name="FX" ID="{309A0AEB-4C9A-44B3-9041-88E9439B2484}" PersistMode="Reference"/>
+				<WorkUnit Name="VOX" ID="{908B0E92-238C-429A-B8D7-9CED30CD0B2F}" PersistMode="Reference"/>
+				<WorkUnit Name="PERSONNAGES" ID="{6F4BC1E7-0480-4F8E-9743-EC79151D8ADE}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

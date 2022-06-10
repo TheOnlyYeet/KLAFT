@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{364D5FC7-21F4-4C48-B22D-36E544537B8B}" SchemaVersion="103">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{364D5FC7-21F4-4C48-B22D-36E544537B8B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Tour" ID="{810A6F1E-7712-46C5-85FB-FAC9EE4BB370}" ShortID="715161277">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="20"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="Combat" ID="{A5A0E217-0CF3-4E6F-A2D7-36C52E93A556}" ShortID="652397281"/>
+						<Folder Name="Aventure" ID="{6EE411B8-E35E-4653-91F3-383A2296589D}" ShortID="4189488"/>
+						<Folder Name="Attend" ID="{3E0E7462-00EA-4E35-8E25-CF6809CC5419}" ShortID="765097997"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Victoire" ID="{CEA96CA8-9BB2-45CD-9FC3-A4EA87570AF6}" ShortID="1047909941">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="20"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="Corrompue" ID="{DD3FB0E9-FBAD-4297-B59F-465146A22E58}" ShortID="122226725"/>
+						<Folder Name="Heroïque" ID="{E51CA954-A7DC-4EAF-980F-0CC3BDD85171}" ShortID="891611218"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Defaite" ID="{A5E5421F-EF5E-4C55-A8AE-77679D2A008D}" ShortID="588817556">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="20"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Folder>
+				<Folder Name="Crédits" ID="{93C73CAD-A54C-4361-9356-862B41F6A1F2}" ShortID="103960001">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="20"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Folder>
+				<Folder Name="Héros_Boss" ID="{8E89FFFB-6DAF-4D99-A7F6-F5D83449E275}" ShortID="392041086">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="20"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

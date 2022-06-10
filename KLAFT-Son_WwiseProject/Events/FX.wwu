@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{309A0AEB-4C9A-44B3-9041-88E9439B2484}" SchemaVersion="103" RootDocumentID="{19A8AEFE-9162-4A82-9327-3CFD517AC956}" ParentDocumentID="{19A8AEFE-9162-4A82-9327-3CFD517AC956}">
+	<Events>
+		<WorkUnit Name="FX" ID="{309A0AEB-4C9A-44B3-9041-88E9439B2484}" OwnerID="{19A8AEFE-9162-4A82-9327-3CFD517AC956}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="24"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="COMBAT" ID="{DA2672FB-EB8D-43C9-9CBD-CCA1526E33D3}" ShortID="840425322">
+					<ChildrenList>
+						<Folder Name="CHM_PHASE_CMBT" ID="{FF642156-0313-4BDA-9214-09BC49DEF653}" ShortID="1006374515">
+							<ChildrenList>
+								<Event Name="Play_FX_Changement_Phase_CMBT" ID="{AAF927F6-F36C-4108-A2FA-97AF69CD1F97}">
+									<ChildrenList>
+										<Action Name="" ID="{98F24DC5-3E20-4824-A64C-86D9F8123202}" ShortID="167368355">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="FX_Changement_Phase_CMBT" ID="{506A4F34-0D30-4B6B-B60D-91D06E901D18}" WorkUnitID="{0F29A9AA-B989-4021-9548-DC834C9485CA}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

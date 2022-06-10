@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\Content\WwiseAudio\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="541248123" GUID="{5214CA2D-F3EC-49D0-B6FB-0BCFC92638C6}" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_FX</ObjectPath>
+			<ShortName>SB_FX</ShortName>
+			<Path>SB_FX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4024711712" Name="Play_FX_Changement_Phase_CMBT" ObjectPath="\Events\Default Work Unit\FX\COMBAT\CHM_PHASE_CMBT\Play_FX_Changement_Phase_CMBT" GUID="{AAF927F6-F36C-4108-A2FA-97AF69CD1F97}" DurationType="OneShot" DurationMin="6.610682" DurationMax="6.610682">
+					<IncludedMemoryFiles>
+						<File Id="118412000" Language="SFX">
+							<ShortName>FX\COMBAT\SW_Changement_Phase_Combat_V2.wav</ShortName>
+							<Path>SFX\FX\COMBAT\SW_Changement_Phase_Combat_V2_F8BE79BD.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="779753582" GUID="{37A6E497-2EFF-449C-ABDC-34E7FC7642C3}" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_Music</ObjectPath>
+			<ShortName>SB_Music</ShortName>
+			<Path>SB_Music.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="925885567" GUID="{E9DDCC24-5B56-4CA4-9856-9D38428FA434}" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_AMB</ObjectPath>
+			<ShortName>SB_AMB</ShortName>
+			<Path>SB_AMB.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1552941487">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="3529345007">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_VOX</ObjectPath>
+			<ShortName>SB_VOX</ShortName>
+			<Path>SB_VOX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3306837711" Name="Play_VOX_PANT_React" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\REACT\Play_VOX_PANT_React" GUID="{E4B635C9-926C-471F-B786-9B13FAAA20B8}" DurationType="OneShot" DurationMin="1.374046" DurationMax="1.980396">
+					<IncludedMemoryFiles>
+						<File Id="124562742" Language="SFX">
+							<ShortName>VOX\PANTIN\REACT\PANTIN_REAC-001.wav</ShortName>
+							<Path>SFX\VOX\PANTIN\REACT\PANTIN_REAC-001_80A856C3.wem</Path>
+						</File>
+						<File Id="296882556" Language="SFX">
+							<ShortName>VOX\PANTIN\REACT\PANTIN_REAC-002.wav</ShortName>
+							<Path>SFX\VOX\PANTIN\REACT\PANTIN_REAC-002_B29AE958.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="2616483332" GUID="{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\PERSONNAGES</ObjectPath>
+			<ShortName>PERSONNAGES</ShortName>
+			<Path>PERSONNAGES.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2588515064" Name="Play_Herbe" ObjectPath="\Events\Default Work Unit\PERSONNAGES\Play_Herbe" GUID="{BB93CFD9-DB02-4EA5-B042-0B0E1BE4CCB7}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

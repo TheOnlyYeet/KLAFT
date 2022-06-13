@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	4024711712	Play_FX_Changement_Phase_CMBT			\Default Work Unit\FX\COMBAT\CHM_PHASE_CMBT\Play_FX_Changement_Phase_CMBT	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	118412000	SW_Changement_Phase_Combat_V2	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\FX\COMBAT\SW_Changement_Phase_Combat_V2_24EA98C7.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\COMBAT\FX_SW_Changement_Phase\FX_Changement_Phase_CMBT\SW_Changement_Phase_Combat_V2		1269380
+	118412000	SW_Changement_Phase_Combat_V2	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\FX\COMBAT\SW_Changement_Phase_Combat_V2_F8BE79BD.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\COMBAT\FX_SW_Changement_Phase\FX_Changement_Phase_CMBT\SW_Changement_Phase_Combat_V2		1269380
 

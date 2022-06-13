@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="3670274408">
+		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="3109827570">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_VOX</ObjectPath>
 			<ShortName>SB_VOX</ShortName>
 			<Path>SB_VOX.bnk</Path>
@@ -17,11 +17,11 @@
 					<IncludedMemoryFiles>
 						<File Id="124562742" Language="SFX">
 							<ShortName>VOX\PANTIN\REACT\PANTIN_REAC-001.wav</ShortName>
-							<Path>SFX\VOX\PANTIN\REACT\PANTIN_REAC-001_FCB3882C.wem</Path>
+							<Path>SFX\VOX\PANTIN\REACT\PANTIN_REAC-001_80A856C3.wem</Path>
 						</File>
 						<File Id="296882556" Language="SFX">
 							<ShortName>VOX\PANTIN\REACT\PANTIN_REAC-002.wav</ShortName>
-							<Path>SFX\VOX\PANTIN\REACT\PANTIN_REAC-002_0ECAD437.wem</Path>
+							<Path>SFX\VOX\PANTIN\REACT\PANTIN_REAC-002_B29AE958.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

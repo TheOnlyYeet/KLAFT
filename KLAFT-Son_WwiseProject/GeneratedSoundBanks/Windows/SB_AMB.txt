@@ -1,0 +1,29 @@
+Event	ID	Name			Wwise Object Path	Notes
+	257882991	AMB_Plaine			\Default Work Unit\AMB\Plaine\AMB_Plaine	
+	2699383670	AMB_Village			\Default Work Unit\AMB\Village\AMB_Village	
+	2983803460	AMB_Foret			\Default Work Unit\AMB\Foret\AMB_Foret	
+	4160267755	AMB_Cristallerie			\Default Work Unit\AMB\Cristallerie\AMB_Cristallerie	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	71229733	SW_GEMME_SCINTILLEMENT_SAIN_2	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\AMB\Cristallerie\SW_GEMME_SCINTILLEMENT_SAIN_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_SW_Cristallerie\AMB_Cristallerie_Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_2		660128
+	166026339	Village_Market_3	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\AMB\Village\Market\Village_Market_3_124E2D4B.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_SW_Village\AMB_Market\Village_Market_3		970080
+	171866777	Birds_1	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\AMB\Foret\Birds\Birds_1_442D0C11.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_SW_Foret\AMB_Foret_Birds\Birds_1		1628520
+	216871352	Plaine_Birds_Distant_1	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\AMB\Plaine\Birds\Plaine_Birds_Distant_1_4D9920D2.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_SW_Plaine\AMB_Birds\Plaine_Birds_Distant_1		749796
+	253688661	Plaine_Wind	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\AMB\Plaine\Wind\Plaine_Wind_5E70CD84.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_SW_Plaine\AMB_Plaine_Wind\Plaine_Wind		2821360
+	267709784	Plaine_Birds_Distant_2	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\AMB\Plaine\Birds\Plaine_Birds_Distant_2_969EF4F7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_SW_Plaine\AMB_Birds\Plaine_Birds_Distant_2		800996
+	305049775	Foret_Wind	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\AMB\Foret\Wind\Foret_Wind_2CADE0FF.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_SW_Foret\AMB_Foret_Wind\Foret_Wind		10926204
+	336884618	Minecart_1	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\AMB\Cristallerie\Minecart\Minecart_1_A635F38E.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_SW_Cristallerie\AMB_Cristallerie_Minecart\Minecart_1		654664
+	338174312	Village_Wind_etc	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\AMB\Village\Wind\Village_Wind_etc_ABCE1419.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_SW_Village\AMB_Village_Wind\Village_Wind_etc		4838144
+	406067296	Village_Market_1	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\AMB\Village\Market\Village_Market_1_4DC201B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_SW_Village\AMB_Market\Village_Market_1		1143220
+	482573342	SW_GEMME_SCINTILLEMENT_SAIN_1	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\AMB\Cristallerie\SW_GEMME_SCINTILLEMENT_SAIN_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_SW_Cristallerie\AMB_Cristallerie_Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_1		584436
+	526321791	Birds_2	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\AMB\Foret\Birds\Birds_2_B5131E1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_SW_Foret\AMB_Foret_Birds\Birds_2		1662724
+	546191038	Birds_3	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\AMB\Foret\Birds\Birds_3_E7E6BACE.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_SW_Foret\AMB_Foret_Birds\Birds_3		1066580
+	655392543	SW_GEMME_SCINTILLEMENT_SAIN_4	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\AMB\Cristallerie\SW_GEMME_SCINTILLEMENT_SAIN_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_SW_Cristallerie\AMB_Cristallerie_Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_4		663820
+	783053295	Mining_Axe_1	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\AMB\Cristallerie\Pickaxe\Mining_Axe_1_8D0E612F.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_SW_Cristallerie\AMB_Cristallerie_Pickaxe\Mining_Axe_1		1175784
+	802471602	Village_Market_2	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\AMB\Village\Market\Village_Market_2_9A14E230.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_SW_Village\AMB_Market\Village_Market_2		1175452
+	818475663	Plaine_Birds_Distant_3	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\AMB\Plaine\Birds\Plaine_Birds_Distant_3_50480FDA.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_SW_Plaine\AMB_Birds\Plaine_Birds_Distant_3		859164
+	880687900	Plaine_Birds_Distant_4	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\AMB\Plaine\Birds\Plaine_Birds_Distant_4_6E1527FA.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_SW_Plaine\AMB_Birds\Plaine_Birds_Distant_4		473668
+	979902205	Mining_Axe_2	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\AMB\Cristallerie\Pickaxe\Mining_Axe_2_D8B85A33.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_SW_Cristallerie\AMB_Cristallerie_Pickaxe\Mining_Axe_2		1276612
+	987417173	Minecart_2	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\AMB\Cristallerie\Minecart\Minecart_2_EBBD9BB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_SW_Cristallerie\AMB_Cristallerie_Minecart\Minecart_2		1014580
+	1073000567	SW_GEMME_SCINTILLEMENT_SAIN_3	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\AMB\Cristallerie\SW_GEMME_SCINTILLEMENT_SAIN_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_SW_Cristallerie\AMB_Cristallerie_Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_3		624128
+

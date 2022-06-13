@@ -6,6 +6,207 @@
 				<Property Name="Color" Type="int16" Value="4"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Cristallerie" ID="{9B8AB4E0-EAF0-49DA-856A-9C5D46FB6500}" ShortID="1054702319">
+					<ChildrenList>
+						<Event Name="AMB_Cristallerie" ID="{AE916204-99DF-426C-B44D-0C4251136C77}">
+							<ChildrenList>
+								<Action Name="" ID="{88EBF19B-FA78-4EE2-BAFC-1A11A37606F8}" ShortID="435805201">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="4">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F9F2C1BA-73C0-450D-A945-1F2320F1E86A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="FadeInCurve" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Cristallerie_Gemmes" ID="{0F95650F-BB05-461D-807E-86C95035102F}" WorkUnitID="{943FF8BB-CBA0-4D91-B117-B1DE7B269D31}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2E90AA10-9572-4002-8FF2-5F7E63021B94}" ShortID="478346498">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="3">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{704E0864-3B0B-42F8-87DA-DBA292AF44E8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="4"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Cristallerie_Minecart" ID="{384349E8-EF19-4178-A3E5-44B39C7DF831}" WorkUnitID="{943FF8BB-CBA0-4D91-B117-B1DE7B269D31}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E0E2D316-2CDE-405E-B037-C0FA3A6D7760}" ShortID="35543773">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="3">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{61FE5FE3-AF1C-41D6-9598-CCC3D481E3C7}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Cristallerie_Pickaxe" ID="{E76AAFFF-3B98-4C59-B708-F467503B28A2}" WorkUnitID="{943FF8BB-CBA0-4D91-B117-B1DE7B269D31}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Foret" ID="{50B48781-95B2-42BC-A519-F6A34D8C5623}" ShortID="570885236">
+					<ChildrenList>
+						<Event Name="AMB_Foret" ID="{8F78802D-65DD-44BC-9BEB-4EF04205ABFE}">
+							<ChildrenList>
+								<Action Name="" ID="{B711E14F-E415-431F-BB72-B05574244549}" ShortID="264443913">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Foret_Wind" ID="{D0465D83-2EA6-4386-B4A5-E404EAD7FF95}" WorkUnitID="{943FF8BB-CBA0-4D91-B117-B1DE7B269D31}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CA921DC3-57E4-4293-8E2B-B728C5F47227}" ShortID="727818155">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{4866F390-BE7A-4E5A-BDF6-ED20148C2176}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Foret_Birds" ID="{00A09736-BDA8-4F6D-A65A-F608CD2EB94F}" WorkUnitID="{943FF8BB-CBA0-4D91-B117-B1DE7B269D31}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Plaine" ID="{D694FC56-65FF-4424-A483-3443D3E98D4F}" ShortID="824464978">
+					<ChildrenList>
+						<Event Name="AMB_Plaine" ID="{F8574256-6625-49E8-84B0-D566E8F68AD9}">
+							<ChildrenList>
+								<Action Name="" ID="{EBA37153-FC1E-4C0C-B0A8-E7A496EBB0B4}" ShortID="412934001">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Plaine_Wind" ID="{A3A61C21-5429-436F-97D9-40919CA14157}" WorkUnitID="{943FF8BB-CBA0-4D91-B117-B1DE7B269D31}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BF2DD6E1-63C9-4B41-8898-45106A9C5FCE}" ShortID="121171668">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="3">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0EA110E2-38FF-437C-98DB-9DFFAA483DFE}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Birds" ID="{3E732232-3C97-466F-86CF-63A9E370F2C6}" WorkUnitID="{943FF8BB-CBA0-4D91-B117-B1DE7B269D31}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Village" ID="{9D356FCB-974C-40FD-8E20-280A3EAE2EA9}" ShortID="669912937">
+					<ChildrenList>
+						<Event Name="AMB_Village" ID="{D8D5FEDA-D19B-47BF-9FA2-8CDA2D796D36}">
+							<ChildrenList>
+								<Action Name="" ID="{8494E39B-F4AA-45C6-AED0-7C7AC8B95430}" ShortID="108706473">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Village_Wind" ID="{172C0CE8-783E-4454-8EA1-EEEDC5DE1867}" WorkUnitID="{943FF8BB-CBA0-4D91-B117-B1DE7B269D31}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{870DE30A-B0CD-46FC-A3EE-03DAED4B6190}" ShortID="624119127">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="3">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{46D3D0F3-9548-4C7F-8C18-E8BD97A4A3FF}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Market" ID="{937FEED4-0567-4D23-BCE3-F728D18F754D}" WorkUnitID="{943FF8BB-CBA0-4D91-B117-B1DE7B269D31}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>

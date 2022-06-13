@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="925885567" GUID="{E9DDCC24-5B56-4CA4-9856-9D38428FA434}" Language="SFX" Hash="2808671450">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_AMB</ObjectPath>
+			<ShortName>SB_AMB</ShortName>
+			<Path>SB_AMB.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4160267755" Name="AMB_Cristallerie" ObjectPath="\Events\Default Work Unit\AMB\Cristallerie\AMB_Cristallerie" GUID="{AE916204-99DF-426C-B44D-0C4251136C77}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="71229733" Language="SFX">
+							<ShortName>AMB\Cristallerie\SW_GEMME_SCINTILLEMENT_SAIN_2.wav</ShortName>
+							<Path>SFX\AMB\Cristallerie\SW_GEMME_SCINTILLEMENT_SAIN_2_10C4C929.wem</Path>
+						</File>
+						<File Id="336884618" Language="SFX">
+							<ShortName>AMB\Cristallerie\Minecart\Minecart_1.wav</ShortName>
+							<Path>SFX\AMB\Cristallerie\Minecart\Minecart_1_A635F38E.wem</Path>
+						</File>
+						<File Id="482573342" Language="SFX">
+							<ShortName>AMB\Cristallerie\SW_GEMME_SCINTILLEMENT_SAIN_1.wav</ShortName>
+							<Path>SFX\AMB\Cristallerie\SW_GEMME_SCINTILLEMENT_SAIN_1_10C4C929.wem</Path>
+						</File>
+						<File Id="655392543" Language="SFX">
+							<ShortName>AMB\Cristallerie\SW_GEMME_SCINTILLEMENT_SAIN_4.wav</ShortName>
+							<Path>SFX\AMB\Cristallerie\SW_GEMME_SCINTILLEMENT_SAIN_4_10C4C929.wem</Path>
+						</File>
+						<File Id="783053295" Language="SFX">
+							<ShortName>AMB\Cristallerie\Pickaxe\Mining_Axe_1.wav</ShortName>
+							<Path>SFX\AMB\Cristallerie\Pickaxe\Mining_Axe_1_8D0E612F.wem</Path>
+						</File>
+						<File Id="979902205" Language="SFX">
+							<ShortName>AMB\Cristallerie\Pickaxe\Mining_Axe_2.wav</ShortName>
+							<Path>SFX\AMB\Cristallerie\Pickaxe\Mining_Axe_2_D8B85A33.wem</Path>
+						</File>
+						<File Id="987417173" Language="SFX">
+							<ShortName>AMB\Cristallerie\Minecart\Minecart_2.wav</ShortName>
+							<Path>SFX\AMB\Cristallerie\Minecart\Minecart_2_EBBD9BB0.wem</Path>
+						</File>
+						<File Id="1073000567" Language="SFX">
+							<ShortName>AMB\Cristallerie\SW_GEMME_SCINTILLEMENT_SAIN_3.wav</ShortName>
+							<Path>SFX\AMB\Cristallerie\SW_GEMME_SCINTILLEMENT_SAIN_3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2983803460" Name="AMB_Foret" ObjectPath="\Events\Default Work Unit\AMB\Foret\AMB_Foret" GUID="{8F78802D-65DD-44BC-9BEB-4EF04205ABFE}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="171866777" Language="SFX">
+							<ShortName>AMB\Foret\Birds\Birds_1.wav</ShortName>
+							<Path>SFX\AMB\Foret\Birds\Birds_1_442D0C11.wem</Path>
+						</File>
+						<File Id="305049775" Language="SFX">
+							<ShortName>AMB\Foret\Wind\Foret_Wind.wav</ShortName>
+							<Path>SFX\AMB\Foret\Wind\Foret_Wind_2CADE0FF.wem</Path>
+						</File>
+						<File Id="526321791" Language="SFX">
+							<ShortName>AMB\Foret\Birds\Birds_2.wav</ShortName>
+							<Path>SFX\AMB\Foret\Birds\Birds_2_B5131E1D.wem</Path>
+						</File>
+						<File Id="546191038" Language="SFX">
+							<ShortName>AMB\Foret\Birds\Birds_3.wav</ShortName>
+							<Path>SFX\AMB\Foret\Birds\Birds_3_E7E6BACE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="257882991" Name="AMB_Plaine" ObjectPath="\Events\Default Work Unit\AMB\Plaine\AMB_Plaine" GUID="{F8574256-6625-49E8-84B0-D566E8F68AD9}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="216871352" Language="SFX">
+							<ShortName>AMB\Plaine\Birds\Plaine_Birds_Distant_1.wav</ShortName>
+							<Path>SFX\AMB\Plaine\Birds\Plaine_Birds_Distant_1_4D9920D2.wem</Path>
+						</File>
+						<File Id="253688661" Language="SFX">
+							<ShortName>AMB\Plaine\Wind\Plaine_Wind.wav</ShortName>
+							<Path>SFX\AMB\Plaine\Wind\Plaine_Wind_5E70CD84.wem</Path>
+						</File>
+						<File Id="267709784" Language="SFX">
+							<ShortName>AMB\Plaine\Birds\Plaine_Birds_Distant_2.wav</ShortName>
+							<Path>SFX\AMB\Plaine\Birds\Plaine_Birds_Distant_2_969EF4F7.wem</Path>
+						</File>
+						<File Id="818475663" Language="SFX">
+							<ShortName>AMB\Plaine\Birds\Plaine_Birds_Distant_3.wav</ShortName>
+							<Path>SFX\AMB\Plaine\Birds\Plaine_Birds_Distant_3_50480FDA.wem</Path>
+						</File>
+						<File Id="880687900" Language="SFX">
+							<ShortName>AMB\Plaine\Birds\Plaine_Birds_Distant_4.wav</ShortName>
+							<Path>SFX\AMB\Plaine\Birds\Plaine_Birds_Distant_4_6E1527FA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2699383670" Name="AMB_Village" ObjectPath="\Events\Default Work Unit\AMB\Village\AMB_Village" GUID="{D8D5FEDA-D19B-47BF-9FA2-8CDA2D796D36}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="166026339" Language="SFX">
+							<ShortName>AMB\Village\Market\Village_Market_3.wav</ShortName>
+							<Path>SFX\AMB\Village\Market\Village_Market_3_124E2D4B.wem</Path>
+						</File>
+						<File Id="338174312" Language="SFX">
+							<ShortName>AMB\Village\Wind\Village_Wind_etc.wav</ShortName>
+							<Path>SFX\AMB\Village\Wind\Village_Wind_etc_ABCE1419.wem</Path>
+						</File>
+						<File Id="406067296" Language="SFX">
+							<ShortName>AMB\Village\Market\Village_Market_1.wav</ShortName>
+							<Path>SFX\AMB\Village\Market\Village_Market_1_4DC201B2.wem</Path>
+						</File>
+						<File Id="802471602" Language="SFX">
+							<ShortName>AMB\Village\Market\Village_Market_2.wav</ShortName>
+							<Path>SFX\AMB\Village\Market\Village_Market_2_9A14E230.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

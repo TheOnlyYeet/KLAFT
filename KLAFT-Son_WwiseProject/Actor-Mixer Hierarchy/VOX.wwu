@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{57815366-06FC-4E98-80A7-B15017EF855D}" SchemaVersion="103" RootDocumentID="{9F713A98-0D2C-4C95-8820-103AA92D64EC}" ParentDocumentID="{9F713A98-0D2C-4C95-8820-103AA92D64EC}">
+	<AudioObjects>
+		<WorkUnit Name="VOX" ID="{57815366-06FC-4E98-80A7-B15017EF855D}" OwnerID="{9F713A98-0D2C-4C95-8820-103AA92D64EC}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="1"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="ENNEMIS" ID="{A9E16469-9CE7-4652-AF61-2F96CEB8E131}" ShortID="283568187">
+					<ChildrenList>
+						<Folder Name="Bandit" ID="{0296F91F-FD2B-4477-9E51-4A497102E0D9}" ShortID="248624162">
+							<ChildrenList>
+								<ActorMixer Name="VOX_BDT_Reac" ID="{9821FF25-3EAD-4407-9FBB-7471B5AAA7EC}" ShortID="389465170">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_BDT_Cris_Douleur" ID="{3C03DC5E-CF2C-4A25-9325-49F3D1190F80}" ShortID="78823987">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Lézard" ID="{70249F53-FBB2-47EF-85AB-BFFE4D416E17}" ShortID="931772696">
+							<ChildrenList>
+								<ActorMixer Name="VOX_LZD_Reac" ID="{3C5C2A43-CDAB-4168-BDBD-820FB8E31DD2}" ShortID="480100959">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_LZD_Cris_Douleur" ID="{D5558063-93AC-4393-B110-C5569FB1DDC4}" ShortID="761766994">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Pantin" ID="{9EDD35A3-797B-414D-8021-BDC17AC20200}" ShortID="454703676">
+							<ChildrenList>
+								<ActorMixer Name="VOX_PANT_Reac" ID="{34631040-193A-418E-AA9F-364A21B90D4E}" ShortID="164029961">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VOX_PANT_React" ID="{F81B9F46-1FDD-4CBE-8545-4ECC3496CE8A}" ShortID="818258493">
+											<PropertyList>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+												<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="PANTIN_REAC-001" ID="{31856B2E-8D24-4881-BB4E-6584E5EC10FF}" ShortID="69042388">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PANTIN_REAC-001" ID="{7F266226-F177-42F0-8516-85CA495C188B}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0143822382038427"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.191909055014478"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.221894203201338"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.20229007633588"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\PANTIN\REACT\PANTIN_REAC-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="124562742"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PANTIN_REAC-001" ID="{7F266226-F177-42F0-8516-85CA495C188B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PANTIN_REAC-002" ID="{252C3A52-980B-43EC-9EE8-FD65E39EDADE}" ShortID="677829286">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PANTIN_REAC-002" ID="{FF866B71-7B0D-4CF3-8F16-703664C6447C}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0534351145038168"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.183206106870229"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.610687022900762"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.98473282442748"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\PANTIN\REACT\PANTIN_REAC-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="296882556"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PANTIN_REAC-002" ID="{FF866B71-7B0D-4CF3-8F16-703664C6447C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_PANT_Cris_Douleur" ID="{8828B062-668F-4921-8399-1E5FE23CD5CF}" ShortID="986028073">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VOX_PANT_Cris_Douleur" ID="{303ECE73-6413-4B12-B919-C971CFFDFB2A}" ShortID="949338539">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="PERSONNAGES" ID="{C449DA17-9C3D-4803-8212-5026D0D374B4}" ShortID="707513380">
+					<ChildrenList>
+						<Folder Name="Mage" ID="{ABDFD005-329C-4EE0-AE6E-4D340C30CD41}" ShortID="911462000">
+							<ChildrenList>
+								<ActorMixer Name="VOX_MAGE_Cris_Victoire" ID="{BE409CA1-347F-4474-9875-B01433C6EDBD}" ShortID="505763197">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_MAGE_Enga_Cmb" ID="{3581925C-4A17-4039-8D39-38831A4D6BA5}" ShortID="1001326308">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_MAGE_Appel" ID="{F6D43058-6E3D-4A80-AA99-044E0C4C6FF4}" ShortID="547025001">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_MAGE_Cris_Douleur" ID="{A1751E0E-CB1B-44E3-9020-CF69E43D4FD4}" ShortID="482964641">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Barde" ID="{AEC3BA0F-5586-4BB0-BE17-2A0010A75FB8}" ShortID="335908479">
+							<ChildrenList>
+								<ActorMixer Name="VOX_BARD_Appel" ID="{A5C82205-3CEB-4605-BEAD-5E253B29EC8C}" ShortID="361653891">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_BARD_Enga_Cmb" ID="{F26E767A-E9B2-4D46-A84C-B2608F43A4E5}" ShortID="905889029">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_BARD_Cris_Victoire" ID="{AB6FAE17-B2CF-4219-A705-937CFA93CC93}" ShortID="562335288">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_BARD_Cris_Douleur" ID="{6C05D9C0-6D6B-4343-9C5C-3D800AF32831}" ShortID="889030558">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Veto" ID="{1F83CE80-DE2B-4FCE-BE9E-5A67C225907C}" ShortID="595247690">
+							<ChildrenList>
+								<ActorMixer Name="VOX_VETO_Enga_Cmb" ID="{13A69809-A699-4803-9254-B13EBFAC71AF}" ShortID="678227205">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_VETO_Appel" ID="{4ED7CB0A-AA76-4337-9A6C-5F989439BBF5}" ShortID="951296635">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_VETO_Cris_Victoire" ID="{C0E80966-F724-4616-9880-431E0245E704}" ShortID="343856759">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_VETO_Cris_Douleur" ID="{A15D0F24-3A82-41BF-9F68-41E56E17F218}" ShortID="369217119">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SPONSORS" ID="{41F05C46-DE45-4441-B8D4-BA3F4D45B97C}" ShortID="240671537">
+					<ChildrenList>
+						<Folder Name="CROCK_RUINE" ID="{70AED932-370D-4390-9455-6490E13F3C08}" ShortID="692928455"/>
+						<Folder Name="RUBISTA__PIERRE_TAILLE" ID="{95F06D5F-D12C-4B3D-A628-BEF0C01D1FAF}" ShortID="851606953"/>
+						<Folder Name="TRAQUE_A_PIED" ID="{08A52F70-87A2-4D4C-A183-D4F67DA58374}" ShortID="973645213"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="INDICES" ID="{240D475D-876B-4000-A955-0F4BB9AA9CD3}" ShortID="23148756">
+					<ChildrenList>
+						<Folder Name="Attaque" ID="{CE4F3B33-9FE0-4B5C-8FEA-91E2CD3433D3}" ShortID="135794211">
+							<ChildrenList>
+								<Folder Name="Fort" ID="{9371183E-3071-45FE-8834-DBCB3078AC0D}" ShortID="232311519"/>
+								<Folder Name="Moyen" ID="{06CBB0BE-5E17-4260-8949-CD697C7A4092}" ShortID="673692559"/>
+								<Folder Name="Faible" ID="{6C47FF74-0E87-45C6-A11C-CF0032EAD766}" ShortID="429282250"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Defense" ID="{7A3960A8-D0AE-40B1-ADE3-CCF541A533E4}" ShortID="357759536">
+							<ChildrenList>
+								<Folder Name="Faible" ID="{5FB89DDB-EA33-4191-BC8E-7286AB24D719}" ShortID="392491120"/>
+								<Folder Name="Moyen" ID="{C1E5174E-CA58-4905-858D-E5CB91D3E80B}" ShortID="596954871"/>
+								<Folder Name="Fort" ID="{E70A36F9-3811-45C5-8ACB-8D66CEBCDEBD}" ShortID="979820183"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Puissance" ID="{D65A3BC3-6695-4529-B6C5-9EC931125C90}" ShortID="1032856335">
+							<ChildrenList>
+								<Folder Name="Faible" ID="{5CA6DE3A-0CAD-4ADF-8949-DFEE6C828008}" ShortID="22239265"/>
+								<Folder Name="Moyen" ID="{D6EEF24B-709A-4C7C-B25F-E66C25B73FD5}" ShortID="96899544"/>
+								<Folder Name="Fort" ID="{DDBECC59-A343-4532-B826-9C6A881E1B41}" ShortID="346869037"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3306837711	Play_VOX_PANT_React			\Default Work Unit\VOX\PANTIN\REACT\Play_VOX_PANT_React	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	124562742	PANTIN_REAC-001	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\VOX\PANTIN\REACT\PANTIN_REAC-001_80A856C3.wem		\Actor-Mixer Hierarchy\Default Work Unit\VOX\ENNEMIS\Pantin\VOX_PANT_Reac\VOX_PANT_React\PANTIN_REAC-001		190182
+	296882556	PANTIN_REAC-002	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\VOX\PANTIN\REACT\PANTIN_REAC-002_B29AE958.wem		\Actor-Mixer Hierarchy\Default Work Unit\VOX\ENNEMIS\Pantin\VOX_PANT_Reac\VOX_PANT_React\PANTIN_REAC-002		131972
+

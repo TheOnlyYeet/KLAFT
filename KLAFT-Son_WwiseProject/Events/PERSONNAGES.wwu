@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6F4BC1E7-0480-4F8E-9743-EC79151D8ADE}" SchemaVersion="103" RootDocumentID="{19A8AEFE-9162-4A82-9327-3CFD517AC956}" ParentDocumentID="{19A8AEFE-9162-4A82-9327-3CFD517AC956}">
+	<Events>
+		<WorkUnit Name="PERSONNAGES" ID="{6F4BC1E7-0480-4F8E-9743-EC79151D8ADE}" OwnerID="{19A8AEFE-9162-4A82-9327-3CFD517AC956}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_Herbe" ID="{BB93CFD9-DB02-4EA5-B042-0B0E1BE4CCB7}">
+					<ChildrenList>
+						<Action Name="" ID="{A1084BA7-202B-4EF6-AAFB-1C2888486657}" ShortID="504958565">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Herbe" ID="{08833088-BC5F-406C-9A36-85696C9F2D89}" WorkUnitID="{B7A95B86-842A-44E2-91A8-259BD97AD38D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

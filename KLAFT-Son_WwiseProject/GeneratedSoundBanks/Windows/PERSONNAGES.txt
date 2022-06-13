@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2588515064	Play_Herbe			\Default Work Unit\PERSONNAGES\Play_Herbe	
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FF020AAB-B954-4717-A2F3-66522F29D2C6}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{FF020AAB-B954-4717-A2F3-66522F29D2C6}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SB_AMB" ID="{E9DDCC24-5B56-4CA4-9856-9D38428FA434}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="AMB" ID="{41C5C5A4-3F9A-4015-BD50-10DCFF603574}" WorkUnitID="{41C5C5A4-3F9A-4015-BD50-10DCFF603574}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SB_Music" ID="{37A6E497-2EFF-449C-ABDC-34E7FC7642C3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="20"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Music" ID="{132B55A4-3412-4FB1-9156-2FE7AF086CB8}" WorkUnitID="{132B55A4-3412-4FB1-9156-2FE7AF086CB8}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SB_FX" ID="{5214CA2D-F3EC-49D0-B6FB-0BCFC92638C6}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="24"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="FX" ID="{309A0AEB-4C9A-44B3-9041-88E9439B2484}" WorkUnitID="{309A0AEB-4C9A-44B3-9041-88E9439B2484}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SB_VOX" ID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="VOX" ID="{908B0E92-238C-429A-B8D7-9CED30CD0B2F}" WorkUnitID="{908B0E92-238C-429A-B8D7-9CED30CD0B2F}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="PERSONNAGES" ID="{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="PERSONNAGES" ID="{6F4BC1E7-0480-4F8E-9743-EC79151D8ADE}" WorkUnitID="{6F4BC1E7-0480-4F8E-9743-EC79151D8ADE}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

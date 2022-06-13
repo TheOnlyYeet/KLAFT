@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0F29A9AA-B989-4021-9548-DC834C9485CA}" SchemaVersion="103" RootDocumentID="{9F713A98-0D2C-4C95-8820-103AA92D64EC}" ParentDocumentID="{9F713A98-0D2C-4C95-8820-103AA92D64EC}">
+	<AudioObjects>
+		<WorkUnit Name="FX" ID="{0F29A9AA-B989-4021-9548-DC834C9485CA}" OwnerID="{9F713A98-0D2C-4C95-8820-103AA92D64EC}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="24"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="UI" ID="{912C312A-9B13-473F-9072-1C872823CD02}" ShortID="62742431"/>
+				<Folder Name="COMBAT" ID="{C30B0564-5B2D-4272-BEC1-99882AFE5B49}" ShortID="855942971">
+					<ChildrenList>
+						<ActorMixer Name="FX_SW_Attribut_Combat" ID="{DB7AF2DE-8844-450D-A5AA-10C2D0267422}" ShortID="1018728014">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="FX_SW_Changement_Phase" ID="{61E7B6D3-C600-4FF1-8D00-D6C1641665EC}" ShortID="1062633982">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="FX_Changement_Phase_CMBT" ID="{506A4F34-0D30-4B6B-B60D-91D06E901D18}" ShortID="618161065">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{61ABEA55-18A5-4CEE-9950-5149F998E0CA}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SW_Changement_Phase_Combat_V2" ID="{CAF4C5A1-2CE6-4178-A2A0-BD25EB8C13C8}" ShortID="723853666">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SW_Changement_Phase_Combat_V2" ID="{AF408864-A837-46CA-88A2-D24BDA6416E3}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.201286789652248"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.264851039016115"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="6.61068193384224"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>FX\COMBAT\SW_Changement_Phase_Combat_V2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="118412000"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="SW_Changement_Phase_Combat_V2" ID="{AF408864-A837-46CA-88A2-D24BDA6416E3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="FX_SW_Affrontement" ID="{322EB2B7-A553-49E6-B965-7E3D3B5BF302}" ShortID="573759191">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="EVENT" ID="{8A9596C1-2408-40EA-A93E-6F54099AE46C}" ShortID="1053127751">
+					<ChildrenList>
+						<Folder Name="Interaction" ID="{627B47AC-07CE-4499-AB7A-1A7A08519202}" ShortID="481973748">
+							<ChildrenList>
+								<Folder Name="Consommables" ID="{48226B28-4C6C-4ABC-94EC-641E73F558A8}" ShortID="1029618073">
+									<ChildrenList>
+										<ActorMixer Name="FX_SW_Boire" ID="{AB687B9F-F771-4B28-BF0E-7AD4C812780A}" ShortID="358779379">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</ActorMixer>
+										<ActorMixer Name="FX_SW_Fumer" ID="{7C425C07-749A-4F0A-8560-085D712DBC09}" ShortID="708572362">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</ActorMixer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Gemmes" ID="{FEAD0A7C-33F5-47C9-949E-6858B2241398}" ShortID="80589679">
+									<ChildrenList>
+										<ActorMixer Name="FX_SW_Gemmes" ID="{E9298684-420B-4BAB-B8D9-D73361E4F70D}" ShortID="674557768">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</ActorMixer>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Carte" ID="{E7DBBF92-9C35-41D9-9004-1A7F5ECD5973}" ShortID="814350052">
+							<ChildrenList>
+								<ActorMixer Name="FX_SW_Carte" ID="{5F4B74CB-CB6D-4BD2-A464-0C6F7C7E1E99}" ShortID="312595378">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="FX_SW_Pioche" ID="{5BEE16A2-777B-4C42-B108-355148E2D32F}" ShortID="654019054">
+											<PropertyList>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SW_Tirage_Carte_1" ID="{C3D37DAA-A45C-4335-85C4-07A7F1C9FAE1}" ShortID="600027865">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Tirage_Carte_1" ID="{11BE599E-2E54-44ED-B47F-AA267D3F4D59}">
+															<Language>SFX</Language>
+															<AudioFile>FX\EVENT\Carte\Tirage\SW_Tirage_Carte_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="864883386"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Tirage_Carte_1" ID="{11BE599E-2E54-44ED-B47F-AA267D3F4D59}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Tirage_Carte_5" ID="{D9BCF228-DBC8-4885-B19B-C546F335AAD5}" ShortID="472163861">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Tirage_Carte_5" ID="{CC99C7B1-5C5B-4D1A-992C-55CFD8C793B6}">
+															<Language>SFX</Language>
+															<AudioFile>FX\EVENT\Carte\Tirage\SW_Tirage_Carte_5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="352058823"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Tirage_Carte_5" ID="{CC99C7B1-5C5B-4D1A-992C-55CFD8C793B6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Tirage_Carte_9" ID="{A9580279-B650-4BA1-96CF-F843EE103A0E}" ShortID="15043492">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Tirage_Carte_9" ID="{435BF6DC-0C0E-4DDD-BF79-39AE61C6EE11}">
+															<Language>SFX</Language>
+															<AudioFile>FX\EVENT\Carte\Tirage\SW_Tirage_Carte_9.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="910284063"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Tirage_Carte_9" ID="{435BF6DC-0C0E-4DDD-BF79-39AE61C6EE11}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Tirage_Carte_10" ID="{6869A548-02EF-45B6-B807-ECEEFFD40B95}" ShortID="447821935">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Tirage_Carte_10" ID="{071D833C-E7F8-43D4-9B59-B8DEAE592361}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0490248621713317"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0.497252173452078"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.497252173452078"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.01271358142494"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>FX\EVENT\Carte\Tirage\SW_Tirage_Carte_10.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="30309419"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Tirage_Carte_10" ID="{071D833C-E7F8-43D4-9B59-B8DEAE592361}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Tirage_Carte_15" ID="{D394C8FB-5329-42D5-B6A8-F5301C62F600}" ShortID="858210371">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Tirage_Carte_15" ID="{B4FFAD9B-EED7-4A94-BA8B-104E4C62BD1C}">
+															<Language>SFX</Language>
+															<AudioFile>FX\EVENT\Carte\Tirage\SW_Tirage_Carte_15.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="678161663"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Tirage_Carte_15" ID="{B4FFAD9B-EED7-4A94-BA8B-104E4C62BD1C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="FX_SW_Pose" ID="{FB45D750-E007-4B8F-A861-274F32E5D718}" ShortID="275058918">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SW_POSAGE_DECK_2" ID="{5EC3117C-B4E8-44F2-8AF6-97D685CD8692}" ShortID="994441860">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_POSAGE_DECK_2" ID="{412B2244-1514-4186-BEC0-A9424B92372D}">
+															<Language>SFX</Language>
+															<AudioFile>FX\EVENT\Carte\Pose\SW_POSAGE_DECK_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="204949103"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_POSAGE_DECK_2" ID="{412B2244-1514-4186-BEC0-A9424B92372D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

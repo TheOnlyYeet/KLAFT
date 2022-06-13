@@ -1,0 +1,12 @@
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	543694036	VOX			\Default Work Unit\Master Audio Bus\VOX	
+	1117531639	AMB			\Default Work Unit\Master Audio Bus\AMB	
+	1802970371	FX			\Default Work Unit\Master Audio Bus\FX	
+	2616483332	PERSONNAGES			\Default Work Unit\Master Audio Bus\PERSONNAGES	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	MUSIC			\Default Work Unit\Master Audio Bus\MUSIC	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

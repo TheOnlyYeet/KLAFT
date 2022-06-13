@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9F713A98-0D2C-4C95-8820-103AA92D64EC}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{9F713A98-0D2C-4C95-8820-103AA92D64EC}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="AMB" ID="{943FF8BB-CBA0-4D91-B117-B1DE7B269D31}" PersistMode="Reference"/>
+				<WorkUnit Name="FX" ID="{0F29A9AA-B989-4021-9548-DC834C9485CA}" PersistMode="Reference"/>
+				<WorkUnit Name="VOX" ID="{57815366-06FC-4E98-80A7-B15017EF855D}" PersistMode="Reference"/>
+				<WorkUnit Name="PERSONNAGES" ID="{B7A95B86-842A-44E2-91A8-259BD97AD38D}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

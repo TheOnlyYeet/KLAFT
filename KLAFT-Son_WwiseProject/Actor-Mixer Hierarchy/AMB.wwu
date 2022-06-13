@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{943FF8BB-CBA0-4D91-B117-B1DE7B269D31}" SchemaVersion="103" RootDocumentID="{9F713A98-0D2C-4C95-8820-103AA92D64EC}" ParentDocumentID="{9F713A98-0D2C-4C95-8820-103AA92D64EC}">
+	<AudioObjects>
+		<WorkUnit Name="AMB" ID="{943FF8BB-CBA0-4D91-B117-B1DE7B269D31}" OwnerID="{9F713A98-0D2C-4C95-8820-103AA92D64EC}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="AMB_SW_Roulotte" ID="{6B0FF0A0-E610-49E2-B727-051522E325ED}" ShortID="746483829">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="AMB" ID="{40778EE0-6733-4209-8BC3-6C673084673B}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</ActorMixer>
+				<ActorMixer Name="AMB_SW_Plaine" ID="{01674704-5062-44A5-A94A-6E374A279150}" ShortID="311630988">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="AMB" ID="{40778EE0-6733-4209-8BC3-6C673084673B}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="AMB_Plaine_Wind" ID="{A3A61C21-5429-436F-97D9-40919CA14157}" ShortID="33068105">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Plaine_Wind" ID="{35F0F541-5C3D-40D1-8A6F-772445D69A4C}" ShortID="1065690629">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Plaine_Wind" ID="{D2896E84-C7AF-4FE1-85C0-B4E037251353}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0955529364224139"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.095552936422413"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="14.6939182231801"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB\Plaine\Wind\Plaine_Wind.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="253688661"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Plaine_Wind" ID="{D2896E84-C7AF-4FE1-85C0-B4E037251353}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="AMB_Birds" ID="{3E732232-3C97-466F-86CF-63A9E370F2C6}" ShortID="217940039">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="8">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{FE0A6ED0-1343-4211-9BEB-1D87B92E9152}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="4"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Plaine_Birds_Distant_1" ID="{C9A7758D-2094-44A9-A43A-BC004F0DCB62}" ShortID="327415393">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Plaine_Birds_Distant_1" ID="{47C3A63D-FDEA-497E-B147-A8021922EE1E}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.131244612068966"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.275613685344827"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.90452720905172"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB\Plaine\Birds\Plaine_Birds_Distant_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="216871352"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Plaine_Birds_Distant_1" ID="{47C3A63D-FDEA-497E-B147-A8021922EE1E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Plaine_Birds_Distant_2" ID="{FD114D66-D3D7-4A41-960E-382711BC46B5}" ShortID="647648063">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Plaine_Birds_Distant_2" ID="{D0938F04-A040-4CF3-A856-8BD9F89CA800}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.264270683668582"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.242843330938697"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.17119133141762"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB\Plaine\Birds\Plaine_Birds_Distant_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="267709784"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Plaine_Birds_Distant_2" ID="{D0938F04-A040-4CF3-A856-8BD9F89CA800}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Plaine_Birds_Distant_3" ID="{66964007-1BE7-4EF4-A4F0-8FE712205E41}" ShortID="844234448">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Plaine_Birds_Distant_3" ID="{ECE08A18-A38A-45C3-9FFE-BE2DD2C607B1}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.258889816810345"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.62635910560345"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.47414709051724"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB\Plaine\Birds\Plaine_Birds_Distant_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="818475663"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Plaine_Birds_Distant_3" ID="{ECE08A18-A38A-45C3-9FFE-BE2DD2C607B1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Plaine_Birds_Distant_4" ID="{5552CE82-1D6B-4E20-8FD0-0737258B115D}" ShortID="20789581">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Plaine_Birds_Distant_4" ID="{8DC9357C-6F06-4DB6-A8FF-05B4DC8AA256}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.340186781609196"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.05422466175766"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB\Plaine\Birds\Plaine_Birds_Distant_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="880687900"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Plaine_Birds_Distant_4" ID="{8DC9357C-6F06-4DB6-A8FF-05B4DC8AA256}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{CF426CC2-28CD-4BA9-BDEA-514FC1DBE0BB}">
+									<PropertyList>
+										<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="AMB_Birds_Path" ID="{5250089A-3A43-4232-AE7E-00A793104243}">
+											<PropertyList>
+												<Property Name="RandomX" Type="Real64" Value="40"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>50</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+				<ActorMixer Name="AMB_SW_Cristallerie" ID="{472CDC78-421B-42B5-A8CD-42750242C425}" ShortID="501342346">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="AMB" ID="{40778EE0-6733-4209-8BC3-6C673084673B}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="AMB_Cristallerie_Minecart" ID="{384349E8-EF19-4178-A3E5-44B39C7DF831}" ShortID="27369630">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="18">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{DF82EEF1-CB94-4DDC-B03E-020B1FA16FDC}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="6"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Minecart_1" ID="{EEBCA144-E65F-40F0-92C1-F14CED18B528}" ShortID="580321790">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Minecart_1" ID="{4481E544-8EC6-48DC-AC8B-0C706191B32B}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.82570706118295"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.78205034722222"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.40903952646073"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB\Cristallerie\Minecart\Minecart_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="336884618"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Minecart_1" ID="{4481E544-8EC6-48DC-AC8B-0C706191B32B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Minecart_2" ID="{1DF34EC6-57A6-4FC3-9EB9-5063A0BFB6C9}" ShortID="86693164">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Minecart_2" ID="{54055922-E588-45F1-9358-E335BA9A4F50}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="3.39400713900862"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.28359455818966"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB\Cristallerie\Minecart\Minecart_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="987417173"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Minecart_2" ID="{54055922-E588-45F1-9358-E335BA9A4F50}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{DF7B5B24-BA3A-4529-8837-3B43E72E7954}">
+									<PropertyList>
+										<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="AMB_Cristallerie_Minecart_Path" ID="{3E82F173-09F7-48FD-B203-09588704EC2D}">
+											<PropertyList>
+												<Property Name="RandomX" Type="Real64" Value="23"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>50</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="AMB_Cristallerie_Gemmes" ID="{0F95650F-BB05-461D-807E-86C95035102F}" ShortID="1030165200">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="9">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{4F1F37DF-A071-434B-B566-64BA5C8839E7}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="4"/>
+													<Property Name="Min" Type="Real64" Value="-4"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SW_GEMME_SCINTILLEMENT_SAIN_1" ID="{9D92C7A6-9B44-4503-A999-E677E2DCA35E}" ShortID="544814098">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SW_GEMME_SCINTILLEMENT_SAIN_1" ID="{B1715D1D-33CD-4CC0-A0D4-E849CB7916BD}">
+											<Language>SFX</Language>
+											<AudioFile>AMB\Cristallerie\SW_GEMME_SCINTILLEMENT_SAIN_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="482573342"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SW_GEMME_SCINTILLEMENT_SAIN_1" ID="{B1715D1D-33CD-4CC0-A0D4-E849CB7916BD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SW_GEMME_SCINTILLEMENT_SAIN_2" ID="{CD08E3A5-08B8-4033-870B-4825EC638AD2}" ShortID="586020334">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SW_GEMME_SCINTILLEMENT_SAIN_2" ID="{D29EE471-29CB-485B-A604-B69903E887D9}">
+											<Language>SFX</Language>
+											<AudioFile>AMB\Cristallerie\SW_GEMME_SCINTILLEMENT_SAIN_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="71229733"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SW_GEMME_SCINTILLEMENT_SAIN_2" ID="{D29EE471-29CB-485B-A604-B69903E887D9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SW_GEMME_SCINTILLEMENT_SAIN_3" ID="{300325E7-4A30-4838-8C0A-B83E5610F4AA}" ShortID="630774314">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SW_GEMME_SCINTILLEMENT_SAIN_3" ID="{A58FBB55-DA94-45D9-9CCD-7B71874F8F42}">
+											<Language>SFX</Language>
+											<AudioFile>AMB\Cristallerie\SW_GEMME_SCINTILLEMENT_SAIN_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1073000567"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SW_GEMME_SCINTILLEMENT_SAIN_3" ID="{A58FBB55-DA94-45D9-9CCD-7B71874F8F42}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SW_GEMME_SCINTILLEMENT_SAIN_4" ID="{EE26BE1C-D5C5-4926-ADB3-C7E9B3F5ED8F}" ShortID="156977852">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SW_GEMME_SCINTILLEMENT_SAIN_4" ID="{944519FA-163C-4DD8-8824-C97521A39325}">
+											<Language>SFX</Language>
+											<AudioFile>AMB\Cristallerie\SW_GEMME_SCINTILLEMENT_SAIN_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="655392543"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SW_GEMME_SCINTILLEMENT_SAIN_4" ID="{944519FA-163C-4DD8-8824-C97521A39325}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{61E2C3F6-AB15-4235-8B59-43535A8FB06A}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-2.66487415501754E-14"/>
+										<Property Name="PanY" Type="Real64" Value="-6.45705133632771E-15"/>
+									</PropertyList>
+								</Panner>
+								<Position Name="" ID="{B31B755F-9B3A-48B5-8658-500944BD2BCA}">
+									<PropertyList>
+										<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="AMB_Cristallerie_Gemmes_Path" ID="{ECC7DE8D-38D0-44BA-BBF8-78FF007A0544}">
+											<PropertyList>
+												<Property Name="RandomX" Type="Real64" Value="44"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>50</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="AMB_Cristallerie_Pickaxe" ID="{E76AAFFF-3B98-4C59-B708-F467503B28A2}" ShortID="596001074">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="13">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{1B739CF2-C471-4C6E-851E-A8ECD429C12E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="6"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Mining_Axe_1" ID="{5F58FA48-5C47-4807-82CA-D3EC2053A685}" ShortID="1030009163">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mining_Axe_1" ID="{54ADA563-B71C-4C76-810A-65EB68753F3F}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.63438884398946"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.33418350395115"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="6.12320327466475"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB\Cristallerie\Pickaxe\Mining_Axe_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="783053295"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Mining_Axe_1" ID="{54ADA563-B71C-4C76-810A-65EB68753F3F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mining_Axe_2" ID="{39901D5C-754E-4CD4-9B71-BCB61CE8B3A9}" ShortID="625828126">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mining_Axe_2" ID="{EB5CC39D-16E6-4B8A-883A-1916ADCD9423}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.865616603807471"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.06928466235632"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="6.64834527658046"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB\Cristallerie\Pickaxe\Mining_Axe_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="979902205"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Mining_Axe_2" ID="{EB5CC39D-16E6-4B8A-883A-1916ADCD9423}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{0EE39E58-1AF9-4469-B83A-C15C6C09DF69}">
+									<PropertyList>
+										<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="AMB_Cristallerie_Pickaxe_Path" ID="{CE6A77EA-0280-4397-8577-22D28E266CD0}">
+											<PropertyList>
+												<Property Name="RandomX" Type="Real64" Value="30"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>50</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+				<ActorMixer Name="AMB_SW_Foret" ID="{FF821D04-17B4-48F2-A78A-B32140450F29}" ShortID="197315676">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="AMB" ID="{40778EE0-6733-4209-8BC3-6C673084673B}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="AMB_Foret_Wind" ID="{D0465D83-2EA6-4386-B4A5-E404EAD7FF95}" ShortID="553113601">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Foret_Wind" ID="{A71D25F8-ACC9-40A7-A56C-5706149E5D65}" ShortID="695513464">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Foret_Wind" ID="{85B3AA84-6E1F-41A1-A8BF-6B74669CE312}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.164470067049808"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0411175167624549"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="56.9066431992337"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB\Foret\Wind\Foret_Wind.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="305049775"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Foret_Wind" ID="{85B3AA84-6E1F-41A1-A8BF-6B74669CE312}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="AMB_Foret_Birds" ID="{00A09736-BDA8-4F6D-A65A-F608CD2EB94F}" ShortID="442041652">
+							<PropertyList>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="14">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{7278E2A1-F56D-4559-8D33-DFE39F0CB2C3}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Birds_1" ID="{7ADBB9CF-D3BC-423C-8893-C1B4C62DF222}" ShortID="737029568">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Birds_1" ID="{16489D07-0F85-4115-B24B-97E184E163F7}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.133247725095785"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.92478756585249"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="8.48121770234675"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB\Foret\Birds\Birds_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="171866777"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Birds_1" ID="{16489D07-0F85-4115-B24B-97E184E163F7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Birds_2" ID="{A54DC98D-31D7-446A-8654-EA9015C38C5F}" ShortID="337393698">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Birds_2" ID="{FBCD6223-CA31-4545-A79F-0432AC475679}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.234036488266284"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.73960359794061"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="8.65935006585249"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB\Foret\Birds\Birds_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="526321791"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Birds_2" ID="{FBCD6223-CA31-4545-A79F-0432AC475679}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Birds_3" ID="{2777C11E-13CA-4C91-9DB9-506D507A5B66}" ShortID="678088485">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Birds_3" ID="{13083DE4-ACE7-4EA0-915A-E09A06118835}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.155946300287356"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.76586251795977"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.55444028376437"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB\Foret\Birds\Birds_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="546191038"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Birds_3" ID="{13083DE4-ACE7-4EA0-915A-E09A06118835}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+				<ActorMixer Name="AMB_SW_Village" ID="{4C95A566-7876-483A-BACF-07AAA283CE23}" ShortID="254020076">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="AMB" ID="{40778EE0-6733-4209-8BC3-6C673084673B}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="AMB_Village_Wind" ID="{172C0CE8-783E-4454-8EA1-EEEDC5DE1867}" ShortID="344330830">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Village_Wind_etc" ID="{4FBA8EC3-6FC1-4B1E-8AA4-9118377C55F7}" ShortID="194452720">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="AMB" ID="{40778EE0-6733-4209-8BC3-6C673084673B}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Village_Wind_etc" ID="{81C49C39-2E2F-49DB-8E47-F5429C12B554}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.107775906968391"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0431103627873561"/>
+												<Property Name="FadeOutShape" Type="int16" Value="1"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="25.1980070492098"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB\Village\Wind\Village_Wind_etc.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="338174312"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Village_Wind_etc" ID="{81C49C39-2E2F-49DB-8E47-F5429C12B554}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="AMB_Market" ID="{937FEED4-0567-4D23-BCE3-F728D18F754D}" ShortID="760481633">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="9">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{569361EB-81D0-47B7-BACF-8FEE1AFE5C4C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="4"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Village_Market_1" ID="{9183857B-24C3-454C-A347-1B7ABD872916}" ShortID="1028353722">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Village_Market_1" ID="{E99F8443-A36F-4B53-8D7B-4C36B8FE5156}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.287446120689655"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.857983117816092"/>
+												<Property Name="FadeOutShape" Type="int16" Value="1"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0435524425287356"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.9971713362069"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB\Village\Market\Village_Market_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="406067296"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Village_Market_1" ID="{E99F8443-A36F-4B53-8D7B-4C36B8FE5156}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Village_Market_2" ID="{C5065779-0BBE-4403-BAC0-BCDDA58300CA}" ShortID="478695667">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Village_Market_2" ID="{6F4C38EC-1EF6-4850-A9AB-88F10F91CDBE}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.515397180316092"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.800221937859195"/>
+												<Property Name="FadeOutShape" Type="int16" Value="1"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="6.12147177322797"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB\Village\Market\Village_Market_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="802471602"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Village_Market_2" ID="{6F4C38EC-1EF6-4850-A9AB-88F10F91CDBE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Village_Market_3" ID="{059BC8A4-CBA4-4AB7-919C-94FE69957DAA}" ShortID="241760334">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Village_Market_3" ID="{A268EDEF-6FF6-4DA9-8223-01D0884AAB2E}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0367139607279693"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.10738134578544"/>
+												<Property Name="FadeOutShape" Type="int16" Value="2"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.05184099616858"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB\Village\Market\Village_Market_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="166026339"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Village_Market_3" ID="{A268EDEF-6FF6-4DA9-8223-01D0884AAB2E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{C0C6EE3F-A46D-4BBA-90BC-BAB3404878B9}">
+									<PropertyList>
+										<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="AMB_Market_Path" ID="{977C952E-879B-4C04-9DC1-3556B9A5AE29}">
+											<PropertyList>
+												<Property Name="RandomX" Type="Real64" Value="20"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>50</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

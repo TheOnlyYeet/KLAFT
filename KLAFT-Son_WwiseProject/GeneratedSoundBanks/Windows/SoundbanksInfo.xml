@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="541248123" GUID="{5214CA2D-F3EC-49D0-B6FB-0BCFC92638C6}" Language="SFX" Hash="809212102">
+		<SoundBank Id="541248123" GUID="{5214CA2D-F3EC-49D0-B6FB-0BCFC92638C6}" Language="SFX" Hash="1554037980">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_FX</ObjectPath>
 			<ShortName>SB_FX</ShortName>
 			<Path>SB_FX.bnk</Path>
@@ -31,7 +31,7 @@
 			<ShortName>SB_Music</ShortName>
 			<Path>SB_Music.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="925885567" GUID="{E9DDCC24-5B56-4CA4-9856-9D38428FA434}" Language="SFX" Hash="2808671450">
+		<SoundBank Id="925885567" GUID="{E9DDCC24-5B56-4CA4-9856-9D38428FA434}" Language="SFX" Hash="3358654420">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_AMB</ObjectPath>
 			<ShortName>SB_AMB</ShortName>
 			<Path>SB_AMB.bnk</Path>
@@ -143,7 +143,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="3109827570">
+		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="227561594">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_VOX</ObjectPath>
 			<ShortName>SB_VOX</ShortName>
 			<Path>SB_VOX.bnk</Path>

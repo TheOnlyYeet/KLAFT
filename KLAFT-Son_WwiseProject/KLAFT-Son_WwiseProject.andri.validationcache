@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="103">
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\States\Default Work Unit.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Queries\Factory Queries.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Metadata\Default Work Unit.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\KLAFT-Son_WwiseProject.wproj" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\KLAFT-Son_WwiseProject.andri.wsettings" DateLow="1655061131" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Events\VOX.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Events\PERSONNAGES.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Events\Music.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Events\FX.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Events\Default Work Unit.wwu" DateLow="1655041877" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Events\AMB.wwu" DateLow="1655043452" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Effects\Factory Effects.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Actor-Mixer Hierarchy\VOX.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Actor-Mixer Hierarchy\PERSONNAGES.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Actor-Mixer Hierarchy\FX.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1654874664" DateHigh="0"/>
-	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Actor-Mixer Hierarchy\AMB.wwu" DateLow="1655043452" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1655109112" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1655109112" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1655109112" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\States\Default Work Unit.wwu" DateLow="1655109112" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1655109112" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1655109112" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Queries\Factory Queries.wwu" DateLow="1655109112" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1655109112" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1655109112" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1655109112" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1655109111" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1655109111" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Metadata\Default Work Unit.wwu" DateLow="1655109111" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1655109111" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\KLAFT-Son_WwiseProject.wproj" DateLow="1655109111" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\KLAFT-Son_WwiseProject.andri.wsettings" DateLow="1655109258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1655109111" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1655109111" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Events\VOX.wwu" DateLow="1655109111" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Events\PERSONNAGES.wwu" DateLow="1655109111" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Events\Music.wwu" DateLow="1655109111" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Events\FX.wwu" DateLow="1655109111" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Events\Default Work Unit.wwu" DateLow="1655109111" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Events\AMB.wwu" DateLow="1655109111" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Effects\Factory Effects.wwu" DateLow="1655109111" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1655109111" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1655109111" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1655109111" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1655109111" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1655109111" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1655109111" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1655109111" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Actor-Mixer Hierarchy\VOX.wwu" DateLow="1655109111" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Actor-Mixer Hierarchy\PERSONNAGES.wwu" DateLow="1655109111" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Actor-Mixer Hierarchy\FX.wwu" DateLow="1655109111" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1655109111" DateHigh="0"/>
+	<ValidationCacheItem File="C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\Actor-Mixer Hierarchy\AMB.wwu" DateLow="1655109111" DateHigh="0"/>
 </ValidationCache>
